@@ -1,0 +1,20 @@
+{
+    "header": {
+        "reservation": "Reservation",
+        "order": "Order",
+        "cart": "Cart"
+    },
+    "blogs": {
+        "title": "Blogs - Two Columns",
+        "description": "It is easy way to create your beatiful blog for daily",
+        "category": "Category"
+    },
+    "login": {
+        "title": "Log-in",
+        "button": "Log in"
+    },
+    "registration": {
+        "title": "Registration",
+        "button": "Create account"
+    }
+}

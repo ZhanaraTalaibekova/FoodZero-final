@@ -1,0 +1,193 @@
+.home {
+    position: relative;
+    z-index: 1;
+
+
+    // HERO SECTION
+    .heroSection {
+        background-color: var(--green);
+        color: var(--white);
+        padding: 310px 0 222px;
+
+        .heroSection__bottom {
+            display: flex;
+            column-gap: 344px;
+
+            .heroSection__bottomSubtitle {
+                padding: 54px 0;
+                width: 65%;
+            }
+
+            .heroSection__bottomDecription {
+                width: 70%;
+            }
+        }
+
+        .heroSection__bottomLeft {
+            width: 50%;
+        }
+
+        .heroSection__bottomRight {
+            width: 50%;
+
+            .heroSection__bottomDecription {
+                width: 90%;
+                padding-bottom: 84px;
+            }
+        }
+    }
+
+
+    // COOK SECTION
+    .cookSection {
+        background-color: var(--lightGreen);
+        padding-bottom: -20px;
+
+        .cookSection__content {
+            width: 100%;
+            display: flex;
+            column-gap: 61px;
+            padding-top: 234px;
+
+            .cookSection__text {
+                padding-top: 28px;
+
+                img {
+                    padding: 70px 0 0 100px;
+                }
+
+                p {
+                    padding: 18px 0;
+                }
+            }
+        }
+    }
+
+    // ADVENTAGE SECTION
+    .adventage {
+        padding: 207px 0 190px;
+    }
+
+    .adventageContent {
+        display: flex;
+        width: 100%;
+        column-gap: 60px;
+
+        &__card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            width: 33%;
+
+            h3 {
+                padding: 39px 0;
+                font-size: 40px;
+                font-weight: 700;
+            }
+        }
+    }
+}
+
+
+.heroSection__top {
+    display: flex;
+    padding-bottom: 310px;
+
+    &_text {
+        position: absolute;
+        z-index: 2;
+        width: 60%;
+
+        h1 {
+            font-weight: 700;
+            font-size: 148px;
+            line-height: 152px;
+            font-family: "Rufina", sans-serif;
+        }
+
+        p {
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 33px;
+            font-family: "Lato", sans-serif;
+            width: 48%;
+            padding: 50px 0;
+        }
+    }
+
+    &_img {
+        position: relative;
+        z-index: 1;
+        padding-left: 52%;
+    }
+
+    .heroSection__top_img::before {
+        position: absolute;
+        z-index: 20;
+        content: '';
+        background: url("../../images/HomeImage/Image4.png");
+    }
+}
+
+
+
+
+
+
+
+// MEDIA REQUESTS
+@media screen and (max-width: 1500px) {
+
+    // COOK SECTION
+    .cookSection {
+        background-color: var(--lightGreen);
+        padding-bottom: -20px;
+
+        .cookSection__content {
+            width: 100%;
+            display: flex;
+            column-gap: 61px;
+            padding-top: 224px;
+
+            .cookSection__imgCover {
+                img {
+                    width: 750px;
+                    height: 750px;
+                }
+            }
+
+            .cookSection__text {
+                padding-top: 28px;
+
+                h2 {
+                    font-size: 85px;
+                }
+
+                img {
+                    padding: 0;
+                    width: 350px;
+                    height: 300px;
+                }
+
+                p {
+                    padding: 18px 0;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+
+    // ADVENTAGE SECTION
+    .adventageContent {
+        &__card {
+            h3 {
+                font-size: 35px;
+            }
+
+            p {
+                font-size: 20px;
+            }
+        }
+    }
+}

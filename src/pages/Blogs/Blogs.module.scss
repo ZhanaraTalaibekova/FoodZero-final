@@ -1,0 +1,130 @@
+.blogs {
+    padding-bottom: 128px;
+}
+
+.blogsMain {
+    background: url("../../images/BlogsImage/bg.png") center/cover, no-repeat;
+    height: 850px;
+}
+
+.blogsProducts__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 100px;
+
+    .blogsProducts__img{
+        position: relative;
+        z-index: -1;
+    }
+}
+
+.blogsProducts {
+    padding-top: 10%;
+}
+
+.blogsProducts__item {
+    width: 49%;
+    position: relative;
+}
+
+
+.blogsProducts__item img {
+    width: 100%;
+}
+
+
+.blogsProducts__title {
+    font-family: "Rufina", sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    padding: 48px 0 18px 0;
+}
+
+.blogsProducts__title:hover {
+    color: var(--green);
+    cursor: pointer;
+    font-weight: 900;
+}
+
+
+.blogsProducts__subtitle {
+    font-family: "Rufina", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30.8px;
+    padding-top: 18px;
+}
+
+
+.blogsProducts__dotted {
+    width: 100%;
+    margin: 0 auto;
+    border-top: 4px dotted black;
+}
+
+.blogsProducts__button {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    font-family: "Rufina", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    background-color: transparent;
+    border: none;
+    padding-top: 46px;
+
+    a {
+        color: var(--black);
+    }
+}
+
+.blogsMain {
+    text-align: center;
+}
+
+.blogMain__title {
+    color: var(--white);
+    padding: 368px 0 32px 0;
+}
+
+.blogMain__description {
+    color: var(--white);
+}
+
+.breadCrumbs {
+    padding-bottom: 50px;
+    div {
+        display: flex;
+        margin-right: 10px;
+
+        a{
+            color: var(--grey);
+        }
+    }
+
+    div:after {
+        content: '>';
+        margin-left: 10px;
+    }
+
+    div:last-child:after{
+        display: none;
+      }      
+}
+
+
+.orderBtn{
+    font-family: "Rufina", sans-serif;
+    padding: 20px 35px;
+    background-color: var(--green);
+    color:var(--white);
+    border: none;
+    font-size: 24px;
+    position: absolute;
+    z-index: 2;
+    right: 0;
+}
+
+

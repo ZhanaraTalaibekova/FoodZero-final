@@ -1,0 +1,73 @@
+.portfolioMain {
+    background: url("../../images/PortfolioImage/bg.png") center/cover no-repeat;
+    height: 1080px;
+    width: 100%;
+}
+
+.portfolioMenu {
+    padding: 120px 0 110px 0;
+
+    &__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 60px;
+    }
+}
+
+
+.portfolioMain__title{
+    font-weight: 700;
+    font-size: 148px;
+    line-height: 152px;
+    padding-bottom: 50px;
+    color: var(--white);
+    padding-top: 30%;
+    text-align: center;
+}
+
+.portfolioMenu__item img {
+    position: relative;
+    z-index: 1;
+    // background: linear-gradient(to top, rgba(7, 7, 7, 0.68), rgba(35, 48, 0, 0));
+    // box-shadow: 0 -10px 10px rgba(0, 0, 0, 0.3);
+    /* Тень снизу вверх */
+    text-align: center;
+    line-height: 100px;
+}
+
+
+.portfolioMenu__item p {
+    position: absolute;
+    z-index: 2;
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--white);
+    padding-top: 40%;
+    width: 30%;
+    padding-left: 42px;
+}
+
+.portfolioMenu__filter {
+    display: flex;
+    justify-content: center;
+    column-gap: 48px;
+    padding-bottom: 60px;
+
+    button {
+        font-size: 34px;
+        font-weight: 400;
+        font-family: "Rufina", sans-serif;
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+    }
+
+    .activeButton {
+        color: var(--saladGreen);
+
+    }
+}
+
+.portfolioMenu__filter button:hover{
+  color: var(--green);
+}

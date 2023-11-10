@@ -1,0 +1,321 @@
+{
+  "workers": [
+    {
+      "id": 1,
+      "name": "Carson Hugn",
+      "post": "Restuarant Manager",
+      "salary": 30000,
+      "img": "./workers/manager.png"
+    },
+    {
+      "id": 2,
+      "name": "Jane Cooper",
+      "post": "Executive Chef",
+      "salary": 80000,
+      "img": "./workers/cook.png"
+    }
+  ],
+  "blogs": [
+    {
+      "id": 1,
+      "name": "Fruit and vegetables and protection against diseases",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "img": "/blogs/1.png",
+      "dopInfo1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc. Convallis pellentesque quis fringilla sagittis. Egestas in risus sit nunc nunc, arcu donec nam etiam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc.",
+      "dopInfo2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc. Convallis pellentesque quis fringilla sagittis. Egestas in risus sit nunc nunc, arcu donec nam etiam. Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "dopInfo3": "“ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc.",
+      "dopInfo4": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc. Convallis pellentesque quis fringilla sagittis. Egestas in risus sit nunc nunc, arcu donec nam etiam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc. Convallis pellentesque quis fringilla sagittis. Egestas in risus sit nunc nunc, arcu donec nam etiam. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet.",
+      "price": 669,
+      "comments": [
+        {
+          "id": 1,
+          "name": "alex",
+          "email": "qwerty@gmail.com",
+          "title": "lourtuionb "
+        },
+        {
+          "title": "test title1",
+          "name": "Aidar",
+          "email": "aidar@gmail.con"
+        },
+        {
+          "title": "test title 2 ",
+          "name": "janara",
+          "email": "janara@gmail.com"
+        },
+        {
+          "title": "test title 3",
+          "name": "janara",
+          "email": "janara@gmail.com"
+        },
+        {
+          "title": "test title 4",
+          "name": "Alina",
+          "email": "alina@gmail.com"
+        },
+        {
+          "title": "title 5",
+          "name": "alyl",
+          "email": "akyl@gmail.com"
+        },
+        {
+          "title": "title 6",
+          "name": "alyl",
+          "email": "akyl@gmail.com"
+        },
+        {
+          "title": "we",
+          "name": "we",
+          "email": "we@gmail"
+        }
+      ],
+      "products": [],
+      "variants": [
+        {
+          "imageURL": "/blogs/3.png"
+        },
+        {
+          "imageURL": "/blogs/4.png"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Asparagus Spring Salad with Rocket, Goat's Cheese",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "img": "/blogs/2.png",
+      "dopInfo1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc. Convallis pellentesque quis fringilla sagittis. Egestas in risus sit nunc nunc, arcu donec nam etiam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc.",
+      "dopInfo2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc. Convallis pellentesque quis fringilla sagittis. Egestas in risus sit nunc nunc, arcu donec nam etiam. Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "dopInfo3": "“ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc.",
+      "dopInfo4": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc. Convallis pellentesque quis fringilla sagittis. Egestas in risus sit nunc nunc, arcu donec nam etiam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc. Convallis pellentesque quis fringilla sagittis. Egestas in risus sit nunc nunc, arcu donec nam etiam. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet.",
+      "price": 210,
+      "comments": [
+        {
+          "title": "qqww",
+          "name": "xszaswdc",
+          "email": "cedwxszqwdxefcv@gmail.com"
+        },
+        {
+          "title": "lorem10",
+          "name": "xszaswdc",
+          "email": "cedwxszqwdxefcv@gmail.com"
+        },
+        {
+          "title": "loremsdfvgbhjnkml,;.'lkjhgfdxfgho;l'gfdgk;p'uytdghjkl;ljhvbnl;uytrdtyuiop[oiuytdrtyuiop'hgftyguiopiuytrdyuiopoiuytrdtp[",
+          "name": "xszaswdc",
+          "email": "cedwxszqwdxefcv@gmail.com"
+        },
+        {
+          "title": "loremsdfvgbhjnkml,;.'lkjhgfdxfgho;l'gfdgk;p'uytdghjkl;ljhvbnl;uytrdtyuiop[oiuytdrtyuiop'hgftyguiopiuytrdyuiopoiuytrdtp['",
+          "name": "xszaswdccc",
+          "email": "12334456789@gmail.com"
+        },
+        {
+          "title": "ertyuiop",
+          "name": "zsxedrcftvgybhunj",
+          "email": "sdrygh@gmail.com"
+        }
+      ],
+      "products": [],
+      "variants": [
+        {
+          "imageURL": "/blogs/6.png"
+        },
+        {
+          "imageURL": "/blogs/5.png"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "7 Reasons to Start Your Day With Lemon Water",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "img": "/blogs/3.png",
+      "dopInfo1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc. Convallis pellentesque quis fringilla sagittis. Egestas in risus sit nunc nunc, arcu donec nam etiam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc.",
+      "dopInfo2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc. Convallis pellentesque quis fringilla sagittis. Egestas in risus sit nunc nunc, arcu donec nam etiam. Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "dopInfo3": "“ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc.",
+      "dopInfo4": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc. Convallis pellentesque quis fringilla sagittis. Egestas in risus sit nunc nunc, arcu donec nam etiam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc. Convallis pellentesque quis fringilla sagittis. Egestas in risus sit nunc nunc, arcu donec nam etiam. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet.",
+      "price": 510,
+      "comments": [],
+      "products": [
+        {
+          "product": "cucumber",
+          "cost": 50
+        },
+        {
+          "product": "tomato",
+          "cost": 30
+        },
+        {
+          "product": "walnut",
+          "cost": 60
+        }
+      ],
+      "variants": [
+        {
+          "imageURL": "/blogs/2.png"
+        },
+        {
+          "imageURL": "/blogs/3.png"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Three Ideas for Cooking Goat Meat at Home",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "img": "/blogs/4.png",
+      "dopInfo1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc. Convallis pellentesque quis fringilla sagittis. Egestas in risus sit nunc nunc, arcu donec nam etiam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc.",
+      "dopInfo2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc. Convallis pellentesque quis fringilla sagittis. Egestas in risus sit nunc nunc, arcu donec nam etiam. Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "dopInfo3": "“ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc.",
+      "dopInfo4": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc. Convallis pellentesque quis fringilla sagittis. Egestas in risus sit nunc nunc, arcu donec nam etiam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc. Convallis pellentesque quis fringilla sagittis. Egestas in risus sit nunc nunc, arcu donec nam etiam. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet.",
+      "price": 410,
+      "comments": [],
+      "products": [
+        {
+          "product": "cucumber",
+          "cost": 50
+        },
+        {
+          "product": "tomato",
+          "cost": 30
+        },
+        {
+          "product": "walnut",
+          "cost": 60
+        }
+      ],
+      "variants": [
+        {
+          "imageURL": "/blogs/4.png"
+        },
+        {
+          "imageURL": "/blogs/2.png"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "12 Sparkling Wines We're Loving This Summer",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "img": "./blogs/5.png",
+      "dopInfo1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc. Convallis pellentesque quis fringilla sagittis. Egestas in risus sit nunc nunc, arcu donec nam etiam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc.",
+      "dopInfo2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc. Convallis pellentesque quis fringilla sagittis. Egestas in risus sit nunc nunc, arcu donec nam etiam. Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "dopInfo3": "“ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc.",
+      "dopInfo4": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc. Convallis pellentesque quis fringilla sagittis. Egestas in risus sit nunc nunc, arcu donec nam etiam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc. Convallis pellentesque quis fringilla sagittis. Egestas in risus sit nunc nunc, arcu donec nam etiam. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet.",
+      "price": 210,
+      "comments": [],
+      "products": [
+        {
+          "product": "cucumber",
+          "cost": 50
+        },
+        {
+          "product": "tomato",
+          "cost": 30
+        },
+        {
+          "product": "walnut",
+          "cost": 60
+        }
+      ],
+      "variants": [
+        {
+          "imageURL": "/blogs/1.png"
+        },
+        {
+          "imageURL": "/blogs/2.png"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "The Best Style of Dough for Dumplings",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "img": "./blogs/6.png",
+      "dopInfo1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc. Convallis pellentesque quis fringilla sagittis. Egestas in risus sit nunc nunc, arcu donec nam etiam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc.",
+      "dopInfo2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc. Convallis pellentesque quis fringilla sagittis. Egestas in risus sit nunc nunc, arcu donec nam etiam. Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "dopInfo3": "“ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc.",
+      "dopInfo4": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc. Convallis pellentesque quis fringilla sagittis. Egestas in risus sit nunc nunc, arcu donec nam etiam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc. Convallis pellentesque quis fringilla sagittis. Egestas in risus sit nunc nunc, arcu donec nam etiam. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet.",
+      "price": 250,
+      "comments": [],
+      "products": [
+        {
+          "product1": "cucumber",
+          "cost": 50
+        },
+        {
+          "product2": "tomato",
+          "cost": 30
+        },
+        {
+          "product3": "walnut",
+          "cost": 60
+        }
+      ],
+      "variants": [
+        {
+          "imageURL": "/blogs/2.png"
+        },
+        {
+          "imageURL": "/blogs/3.png"
+        }
+      ]
+    }
+  ],
+  "portfolio": [
+    {
+      "id": 1,
+      "img": "./portfolio/fish.png",
+      "descr": "Premium Deep Sea Snow White Cod Fillet",
+      "category": "starter"
+    },
+    {
+      "id": 2,
+      "img": "./portfolio/wine.png",
+      "descr": "Option of natural wine available",
+      "category": "launch"
+    },
+    {
+      "id": 3,
+      "img": "./portfolio/soup.png",
+      "descr": "Best pumpkin for pumpkin soup",
+      "category": "dinner"
+    },
+    {
+      "id": 4,
+      "img": "./portfolio/steak.png",
+      "descr": "Strip Steak With Rosemary Butter",
+      "category": "drinks"
+    },
+    {
+      "id": 5,
+      "img": "./portfolio/dessert.png",
+      "descr": "Braised Sliced Abalone,Fish Maw with Premium Seafood",
+      "category": "sweets"
+    },
+    {
+      "id": 6,
+      "img": "./portfolio/shrimp.png",
+      "descr": "Pan Fried Live Prawn with Superior Soy Sauce",
+      "category": "fruits"
+    }
+  ],
+  "users": [
+    {
+      "email": "zhanaratalaibekova111@gmail.com",
+      "password": "$2a$10$2rCwe/DpYhMvh1zGlgr0juEgy4C.2Lo5lIvHH4tap.Ams7vuHZ1Qm",
+      "name": "sezim",
+      "surname": "sezim",
+      "id": 1
+    },
+    {
+      "email": "zhanaratalaibekova113@gmail.com",
+      "password": "$2a$10$kTr75yHIHESuGntgCN5HoOnpk8A/XnAq0jNytBTpv4Kub1LgO1j6C",
+      "name": "sezim",
+      "surname": "talaibekova",
+      "id": 2
+    }
+  ],
+  "cart": []
+}
