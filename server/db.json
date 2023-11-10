@@ -171,10 +171,6 @@
         {
           "product": "tomato",
           "cost": 30
-        },
-        {
-          "product": "walnut",
-          "cost": 60
         }
       ],
       "variants": [
