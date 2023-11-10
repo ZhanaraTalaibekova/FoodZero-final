@@ -1,9 +1,12 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { AiFillEye } from "react-icons/ai";
 import { AiFillEyeInvisible } from "react-icons/ai";
 import styles from "./Login.module.scss";
 import { useTranslation } from 'react-i18next';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
+import { useDispatch, useSelector } from 'react-redux';
+import { loginUser } from '../../store';
+import { useForm } from 'react-hook-form';
 
 export const Login = () => {
 
@@ -13,6 +16,29 @@ export const Login = () => {
     const changeLanguage = (lang) => {
         i18n.changeLanguage(lang)
     }
+
+
+
+    // login
+    const { register, handleSubmit } = useForm();
+    const navigate = useNavigate();
+    const dispatch = useDispatch()
+    const { userInfo } = useSelector(state => state.users);
+  
+  
+    const onSubmit = (values) => {
+      dispatch(loginUser(values))
+    }
+  
+    useEffect(() => {
+      if (localStorage.getItem("token")) {
+        navigate("/");
+      }
+    }, [userInfo])
+  
+
+
+
 
 
     return (
@@ -25,10 +51,10 @@ export const Login = () => {
             <section className='container'>
                 <h2 className={styles.title}>{t("login.title")}</h2>
                 <div className={styles.formWrapper}>
-                    <form>
-                        <input type="email" placeholder='email' />
+                    <form onSubmit={handleSubmit(onSubmit)}>
+                        <input type="email" placeholder='email' {...register("email")} />
                         <div>
-                            <input type={eye ? "text" : "password"} placeholder='password' />
+                            <input type={eye ? "text" : "password"} placeholder='password' {...register("password")}/>
                             {
                                 eye ? (
                                     <AiFillEye onClick={() => setEye(!eye)} />

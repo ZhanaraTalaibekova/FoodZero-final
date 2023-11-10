@@ -16,19 +16,19 @@ export const Registration = () => {
 
   // register
   const { register, handleSubmit } = useForm();
-  // const navigate = useNavigate();
+  const navigate = useNavigate();
   const dispatch = useDispatch()
   const { userInfo } = useSelector(state => state.users);
 
 
   const onSubmit = (values) => {
     dispatch(registerUser(values))
-    console.log(434242)
+    navigate("/login")
   }
 
   useEffect(() => {
     if (localStorage.getItem("token")) {
-      // navigate("/");
+      // navigate("/login");
     }
   }, [userInfo])
 

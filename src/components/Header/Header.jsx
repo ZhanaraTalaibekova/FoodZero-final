@@ -109,7 +109,7 @@ export const Header = () => {
                                 <Link className={styles.header__button_cover} to="/cart">
                                     <button className={styles.header__button}>{t("header.cart")}</button>
                                 </Link>
-                                <Link className={styles.header__button_cover} to="/login">
+                                <Link className={styles.header__button_cover} to="/registration">
                                     <button className={styles.header__button}>{t("header.reservation")}</button>
                                 </Link>
                             </div>

@@ -1,6 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { getUserInfo } from "../actions/usersActions";
-
+import { getUserInfo, loginUser } from "../actions/usersActions";
 
 
 
@@ -12,8 +11,10 @@ export const usersSlice = createSlice({
     },
     reducers: {},
     extraReducers: {
-        
         [getUserInfo.fulfilled]: (state, action) => {
+            state.userInfo = action.payload;
+        }, 
+        [loginUser.fulfilled]: (state, action) => {
             state.userInfo = action.payload;
         }
     }

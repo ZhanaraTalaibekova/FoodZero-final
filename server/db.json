@@ -69,10 +69,23 @@
           "email": "we@gmail"
         }
       ],
-      "products": [],
+      "products": [
+        {
+          "product": "cucumber",
+          "cost": 50
+        },
+        {
+          "product": "tomato",
+          "cost": 30
+        },
+        {
+          "product": "walnut",
+          "cost": 60
+        }
+      ],
       "variants": [
         {
-          "imageURL": "/blogs/3.png"
+          "imageURL": "/blogs/1.png"
         },
         {
           "imageURL": "/blogs/4.png"
@@ -116,7 +129,20 @@
           "email": "sdrygh@gmail.com"
         }
       ],
-      "products": [],
+      "products": [
+        {
+          "product": "cucumber",
+          "cost": 50
+        },
+        {
+          "product": "tomato",
+          "cost": 30
+        },
+        {
+          "product": "walnut",
+          "cost": 60
+        }
+      ],
       "variants": [
         {
           "imageURL": "/blogs/6.png"
@@ -170,7 +196,13 @@
       "dopInfo3": "“ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc.",
       "dopInfo4": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc. Convallis pellentesque quis fringilla sagittis. Egestas in risus sit nunc nunc, arcu donec nam etiam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc. Convallis pellentesque quis fringilla sagittis. Egestas in risus sit nunc nunc, arcu donec nam etiam. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet.",
       "price": 410,
-      "comments": [],
+      "comments": [
+        {
+          "title": "vghbjknl",
+          "name": "cfgvhbjnk",
+          "email": "ghvbjk@gmail.com"
+        }
+      ],
       "products": [
         {
           "product": "cucumber",
@@ -198,7 +230,7 @@
       "id": 5,
       "name": "12 Sparkling Wines We're Loving This Summer",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "img": "./blogs/5.png",
+      "img": "/blogs/5.png",
       "dopInfo1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc. Convallis pellentesque quis fringilla sagittis. Egestas in risus sit nunc nunc, arcu donec nam etiam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc.",
       "dopInfo2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc. Convallis pellentesque quis fringilla sagittis. Egestas in risus sit nunc nunc, arcu donec nam etiam. Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       "dopInfo3": "“ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc.",
@@ -232,7 +264,7 @@
       "id": 6,
       "name": "The Best Style of Dough for Dumplings",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "img": "./blogs/6.png",
+      "img": "/blogs/6.png",
       "dopInfo1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc. Convallis pellentesque quis fringilla sagittis. Egestas in risus sit nunc nunc, arcu donec nam etiam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc.",
       "dopInfo2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc. Convallis pellentesque quis fringilla sagittis. Egestas in risus sit nunc nunc, arcu donec nam etiam. Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       "dopInfo3": "“ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc.",
@@ -315,6 +347,41 @@
       "name": "sezim",
       "surname": "talaibekova",
       "id": 2
+    },
+    {
+      "email": "aidar@gmail.com",
+      "password": "$2a$10$ohIYu4Y7pCngczaw/F4HCedqJIqW.xD7Bck5cjPfQ9B5Nuow/3JBK",
+      "name": "aidar",
+      "surname": "aidar",
+      "id": 3
+    },
+    {
+      "email": "xdws@gmail.com",
+      "password": "$2a$10$VWQhy1/bq5ti6tLoRC43MOrOUN5/ToMYBEUf0mNzUbAaeThzdUzAq",
+      "name": "dx",
+      "surname": "we",
+      "id": 4
+    },
+    {
+      "email": "xddws@gmail.com",
+      "password": "$2a$10$ZvICnk8DUJCETLs29ShThOXf0jzU75MKWZSRMefzKW//S0WCcE5EK",
+      "name": "dx",
+      "surname": "we",
+      "id": 5
+    },
+    {
+      "email": "asd@gmail.com",
+      "password": "$2a$10$I4aZ9F8c1/adcM7xUIAKA..OyYiciKUFQebJYinSMndFbJNuDMI.6",
+      "name": "xdcfcs",
+      "surname": "sxcdsx",
+      "id": 6
+    },
+    {
+      "email": "qwertyui@gmail.com",
+      "password": "$2a$10$zF8xmrF/4Dhs/DplfZcsC.s9Rbz/qgA7WGK95.XMCrZWOtXnYFHeW",
+      "name": "qwertyyuio",
+      "surname": "qwertyuio",
+      "id": 7
     }
   ],
   "cart": []

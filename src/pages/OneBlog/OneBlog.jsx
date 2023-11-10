@@ -8,8 +8,6 @@ import { useForm } from 'react-hook-form';
 import userImg from "../../images/BlogsImage/userImg.jpg"
 
 
-
-
 export const OneBlog = () => {
     const { id } = useParams();
     const [variant, setVariant] = useState("");

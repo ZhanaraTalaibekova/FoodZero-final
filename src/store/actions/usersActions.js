@@ -34,3 +34,20 @@ export const getUserInfo = createAsyncThunk(
         }
     }
 )
+
+
+export const loginUser = createAsyncThunk("loginUser", 
+async (newUser) => {
+  try {
+    const { data } = await axios.post(
+      `${process.env.REACT_APP_MAIN_URL}/login`,
+      newUser
+    );
+    localStorage.setItem("id", data.user.id);
+    localStorage.setItem("token", data.accessToken);
+    toast.success("You have successfully logged into your account!");
+    return data.user;
+  } catch (error) {
+    toast.error(error.response.data);
+  }
+});
