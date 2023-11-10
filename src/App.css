@@ -90,6 +90,10 @@ li {
   background-color: var(--green);
 }
 
+p:hover {
+  color: var(--green);
+}
+
 
 @media screen and (max-width:1800px) {
   .container {
