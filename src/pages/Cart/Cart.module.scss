@@ -1,0 +1,23 @@
+.cart {
+    .cartMain {
+        background: url("../../images/LoginImage/bg.png") center/cover no-repeat;
+        position: relative;
+        z-index: 1;
+        height: 200px;
+        color: var(--white);
+        font-family: 'Rufina', serif;
+    }
+
+    .cart__table {
+        width: 100%;
+
+        .table__header {
+            display: grid;
+            width: 100%;
+            grid-template-columns: 40% 20% 20% 20%;
+            place-items: center;
+            padding-bottom: 2%;
+            border-bottom: 1px solid;
+        }
+    }
+}

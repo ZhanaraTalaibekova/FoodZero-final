@@ -94,6 +94,10 @@ p:hover {
   color: var(--green);
 }
 
+input {
+  font-size: 20px;
+}
+
 
 
 @media screen and (max-width:1800px) {
@@ -111,7 +115,3 @@ p:hover {
     margin: 0 auto;
   }
 }
-
-
-
-

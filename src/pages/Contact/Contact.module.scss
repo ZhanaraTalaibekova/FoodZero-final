@@ -1,0 +1,25 @@
+.contact {
+    font-family: "Rufina", sans-serif;
+
+    .contactMain__section {
+        background: url("../../images/ContactImage/bg.png") center/cover no-repeat;
+        height: 1080px;
+
+        .contactMain__wrapper {
+            padding-top: 400px;
+            color: var(--white);
+
+            .contactMain__title {
+                font-weight: 700;
+                font-size: 148px;
+            }
+
+            .contactMain__subtitle {
+                font-weight: 700;
+                font-size: 32px;
+                line-height: 48px;
+            }
+        }
+    }
+}
+

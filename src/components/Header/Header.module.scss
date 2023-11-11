@@ -6,7 +6,8 @@
     z-index: 2;
     width: 100%;
     position: fixed;
-    
+    cursor: pointer;
+
 
     .header__content {
         display: flex;
@@ -45,6 +46,7 @@
                 }
 
                 .header__button_cover {
+                    cursor: pointer;
 
                     .header__button {
                         font-weight: 700;
@@ -83,3 +85,29 @@
     color: var(--white);
 }
 
+.avatar {
+    color: var(--white)
+}
+
+.headerLang {
+    display: flex;
+    column-gap: 10px;
+    font-size: 19px;
+
+}
+
+// @media screen and (min-width:1500) {
+//     .header__logo {
+//         width: 207px;
+//         height: 80px;
+//     }
+
+//     .header__button {
+//         font-weight: 700;
+//         font-size: 20px;
+//         background-color: transparent;
+//         color: var(--white);
+//         padding: 20px 36px;
+//         border: 2px solid var(--white);
+//     }
+// }

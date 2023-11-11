@@ -86,8 +86,7 @@ export const Header = () => {
 
 
                             <div className={styles.header__right}>
-
-                                <div>
+                                <div  className={styles.headerLang}>
                                     <div className={styles.langContent}>
                                         <p onClick={() => changeLanguage("ru")}>RU</p>
                                     </div>
@@ -96,7 +95,7 @@ export const Header = () => {
                                     </div>
                                 </div>
                                 <Dropdown menu={{ items }}>
-                                    <RxAvatar size={40} />
+                                    <RxAvatar size={40} className={styles.avatar}/>
                                 </Dropdown>
 
 

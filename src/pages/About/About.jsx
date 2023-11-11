@@ -9,6 +9,8 @@ import bake from "../../images/AboutImage/bake.png";
 import { BreadCrumbs } from '../../components/BreadCrumbs/BreadCrumbs';
 // import video from "../../videos/video.mp4";
 import { motion } from 'framer-motion'
+import { bottomAnimation, rightAnimation, textAnimation } from '../../components/Animation/Animation';
+
 
 
 
@@ -26,49 +28,51 @@ export const About = () => {
     return (
         <div className={styles.about}>
             <section className={styles.aboutMain}>
-                <motion.div 
-                  animate={{ x: 0 }}
-                  initial={{ x: 1000 }}
-                  durantion={{ x: 1 }}  
-                  className='container'>
-                    <h1 className={styles.aboutMain__title}>Who We Are</h1>
-                    <p className={styles.aboutMain__description}>The most important thing for us is to give you the comfortable dining experience</p>
+                <motion.div initial="hidden" whileInView="visible"
+                    animate={{ x: 0 }}
+                    durantion={{ x: 1 }}
+                    className='container'>
+                    <motion.h1 variants={rightAnimation} custom={2} className={styles.aboutMain__title}>Who We Are</motion.h1>
+                    <motion.p variants={rightAnimation} custom={2} className={styles.aboutMain__description}>The most important thing for us is to give you the comfortable dining experience</motion.p>
                 </motion.div>
             </section>
             <section className={styles.aboutStory}>
                 <div className='container'>
-                    <div className={styles.aboutStory__cover}>
+                    <motion.div initial="hidden" whileInView="visible" className={styles.aboutStory__cover}>
                         <motion.div
+                            variants={textAnimation}
                             animate={{ x: 0 }}
-                            initial={{ x: -1000 }}
                             durantion={{ x: 1 }}
+                            custom={3}
                             className={styles.aboutStory}>
                             <h2 className={`${styles.aboutStory__title} ${'title'}`}>Our Story</h2>
                             <p className={`${styles.aboutStory__description} ${'description'}`}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc. </p>
                         </motion.div>
                         <motion.img
+                            variants={rightAnimation}
                             animate={{ x: 0 }}
-                            initial={{ x: 1000 }}
                             durantion={{ x: 1 }}
+                            custom={3}
                             className={styles.aboutStory__img} src={storyImg} alt="story" />
-                    </div>
+                    </motion.div>
                 </div>
             </section>
 
             <section className={styles.aboutWorkers}>
                 <div className='container'>
                     <motion.div
+                        initial="hidden"
+                        whileInView="visible"
                         animate={{ x: 0 }}
-                        initial={{ x: -1000 }}
                         durantion={{ x: 1 }}
                         className={styles.aboutWorkers__wrapper}>
                         {workers.map((worker) => (
-                            <div key={worker.id}>
+                            <motion.div variants={textAnimation} custom={2} key={worker.id}>
                                 <p className={`${styles.aboutWorkers__subtitle} ${'subtitle'}`} to="/workers">{worker.post}</p>
                                 <p className={`${styles.aboutWorkers__description} ${'description'}`}>{worker.name}</p>
                                 <img src={worker.img} alt="" />
                                 <p className={`${styles.aboutWorkers__text}  ${'description'}`}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et in sed in pellentesque ornare nunc nisl. Augue habitant accumsan, ut parturient orci ac etiam congue mi. </p>
-                            </div>
+                            </motion.div>
                         ))}
                     </motion.div>
                 </div>
@@ -90,13 +94,18 @@ export const About = () => {
                     <div className={styles.aboutProcess__wrapper}>
                         <h2 className={`${styles.aboutProcess__title} ${'title'}`}>Sophisticated Process</h2>
 
-                        <div className={styles.aboutProcess__recipe}>
-                            <div className={styles.aboutProcess__recipe__top}>
+                        <motion.div
+                            initial="hidden"
+                            whileInView="visible"
+                            className={styles.aboutProcess__recipe}>
+                            <motion.div
+                                variants={textAnimation}
+                                className={styles.aboutProcess__recipe__top}>
                                 <img src={slice} alt="slice" />
                                 <motion.div
                                     animate={{ x: 0 }}
-                                    initial={{ x: -1000 }}
                                     durantion={{ x: 1 }}
+                                    custom={3}
                                     className={styles.aboutProcess__slice__text}>
                                     <h3 className={styles.aboutProcess__recipe__title}>01.Slice</h3>
                                     <p className={`${styles.aboutProcess__description} ${'description'}`}> pLorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -106,28 +115,33 @@ export const About = () => {
                                         Egestas in risus sit nunc nunc, arcu donec nam etiam.
                                     </p>
                                 </motion.div>
-                            </div>
-                            <div className={styles.aboutProcess__recipe__bottom}>
+                            </motion.div>
+                            <motion.div
+                                initial="hidden"
+                                whileInView="visible"
+                                className={styles.aboutProcess__recipe__bottom}>
                                 <motion.div
+                                    variants={textAnimation}
                                     animate={{ x: 0 }}
-                                    initial={{ x: 1000 }}
                                     durantion={{ x: 1 }}
+                                    custom={3}
                                     className={styles.aboutProcess__bake}>
                                     <h3 className={styles.aboutProcess__recipe__title}>03.Bake</h3>
                                     <p className={`${styles.aboutProcess__description} ${'description'}`}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. </p>
                                     <img src={bake} alt="bake" />
                                 </motion.div>
                                 <motion.div
+                                    variants={rightAnimation}
                                     animate={{ x: 0 }}
-                                    initial={{ x: -1000 }}
                                     durantion={{ x: 1 }}
+                                    custom={3}
                                     className={styles.aboutProcess__pickled}>
                                     <img src={pickled} alt="pickled" />
                                     <h3 className={styles.aboutProcess__recipe__title}> 02.Pickled</h3>
                                     <p className={`${styles.aboutProcess__description} ${'description'}`}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet.</p>
                                 </motion.div>
-                            </div>
-                        </div>
+                            </motion.div>
+                        </motion.div>
                     </div>
                 </div>
             </section>

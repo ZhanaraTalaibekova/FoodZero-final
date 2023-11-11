@@ -7,6 +7,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { loginUser } from '../../store';
 import { useForm } from 'react-hook-form';
+import { motion } from "framer-motion"
 
 export const Login = () => {
 
@@ -24,18 +25,18 @@ export const Login = () => {
     const navigate = useNavigate();
     const dispatch = useDispatch()
     const { userInfo } = useSelector(state => state.users);
-  
-  
+
+
     const onSubmit = (values) => {
-      dispatch(loginUser(values))
+        dispatch(loginUser(values))
     }
-  
+
     useEffect(() => {
-      if (localStorage.getItem("token")) {
-        navigate("/");
-      }
+        if (localStorage.getItem("token")) {
+            navigate("/");
+        }
     }, [userInfo])
-  
+
 
 
 
@@ -54,7 +55,7 @@ export const Login = () => {
                     <form onSubmit={handleSubmit(onSubmit)}>
                         <input type="email" placeholder='email' {...register("email")} />
                         <div>
-                            <input type={eye ? "text" : "password"} placeholder='password' {...register("password")}/>
+                            <input type={eye ? "text" : "password"} placeholder='password' {...register("password")} />
                             {
                                 eye ? (
                                     <AiFillEye onClick={() => setEye(!eye)} />
@@ -62,7 +63,14 @@ export const Login = () => {
                                     <AiFillEyeInvisible onClick={() => setEye(!eye)} />)
                             }
                         </div>
-                        <button className={`${styles.loginBtn} ${"formBtn"}`} type='submit'>{t("login.button")}</button>
+                        <motion.button
+                            whileHover={{ scale: 1.15 }}
+                            whileTap={{ scale: 0.85 }}
+                            transition={{
+                                durantion: 0.125,
+                                ease: "easeInOut"
+                            }}
+                            className={`${styles.loginBtn} ${"formBtn"}`} type='submit'>{t("login.button")}</motion.button>
 
                         <div className={styles.loginNewUser}>
                             <p className={styles.loginNewUser__title}>New User?</p>

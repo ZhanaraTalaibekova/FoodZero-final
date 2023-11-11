@@ -25,7 +25,7 @@
       "dopInfo2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc. Convallis pellentesque quis fringilla sagittis. Egestas in risus sit nunc nunc, arcu donec nam etiam. Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       "dopInfo3": "“ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc.",
       "dopInfo4": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc. Convallis pellentesque quis fringilla sagittis. Egestas in risus sit nunc nunc, arcu donec nam etiam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc. Convallis pellentesque quis fringilla sagittis. Egestas in risus sit nunc nunc, arcu donec nam etiam. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet.",
-      "price": 669,
+      "price": 579,
       "comments": [
         {
           "id": 1,
@@ -67,20 +67,22 @@
           "title": "we",
           "name": "we",
           "email": "we@gmail"
+        },
+        {
+          "title": "wert",
+          "name": "djkl",
+          "email": "wert@gmail.com"
+        },
+        {
+          "title": "",
+          "name": "",
+          "email": ""
         }
       ],
       "products": [
         {
           "product": "cucumber",
           "cost": 50
-        },
-        {
-          "product": "tomato",
-          "cost": 30
-        },
-        {
-          "product": "walnut",
-          "cost": 60
         }
       ],
       "variants": [
@@ -188,9 +190,9 @@
     },
     {
       "id": 4,
-      "name": "Three Ideas for Cooking Goat Meat at Home",
+      "name": "The Best Style of Dough for Dumplings",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "img": "/blogs/4.png",
+      "img": "/blogs/6.png",
       "dopInfo1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc. Convallis pellentesque quis fringilla sagittis. Egestas in risus sit nunc nunc, arcu donec nam etiam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc.",
       "dopInfo2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc. Convallis pellentesque quis fringilla sagittis. Egestas in risus sit nunc nunc, arcu donec nam etiam. Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       "dopInfo3": "“ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc.",
@@ -262,9 +264,9 @@
     },
     {
       "id": 6,
-      "name": "The Best Style of Dough for Dumplings",
+      "name": "Three Ideas for Cooking Goat Meat at Home",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "img": "/blogs/6.png",
+      "img": "/blogs/4.png",
       "dopInfo1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc. Convallis pellentesque quis fringilla sagittis. Egestas in risus sit nunc nunc, arcu donec nam etiam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc.",
       "dopInfo2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc. Convallis pellentesque quis fringilla sagittis. Egestas in risus sit nunc nunc, arcu donec nam etiam. Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       "dopInfo3": "“ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc.",
@@ -382,7 +384,235 @@
       "name": "qwertyyuio",
       "surname": "qwertyuio",
       "id": 7
+    },
+    {
+      "email": "zhanara@gmail.com",
+      "password": "$2a$10$6fpwTkucF4t7wkj8K0QdXODYx90J7FYbo/JjM5ktdofgHEwICgB7i",
+      "name": "zhanara",
+      "surname": "talaibekova",
+      "id": 8
     }
   ],
-  "cart": []
+  "cart": [
+    {
+      "name": "Fruit and vegetables and protection against diseases",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "img": "/blogs/1.png",
+      "dopInfo1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc. Convallis pellentesque quis fringilla sagittis. Egestas in risus sit nunc nunc, arcu donec nam etiam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc.",
+      "dopInfo2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc. Convallis pellentesque quis fringilla sagittis. Egestas in risus sit nunc nunc, arcu donec nam etiam. Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "dopInfo3": "“ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc.",
+      "dopInfo4": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc. Convallis pellentesque quis fringilla sagittis. Egestas in risus sit nunc nunc, arcu donec nam etiam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc. Convallis pellentesque quis fringilla sagittis. Egestas in risus sit nunc nunc, arcu donec nam etiam. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet.",
+      "price": 669,
+      "comments": [
+        {
+          "id": 1,
+          "name": "alex",
+          "email": "qwerty@gmail.com",
+          "title": "lourtuionb "
+        },
+        {
+          "title": "test title1",
+          "name": "Aidar",
+          "email": "aidar@gmail.con"
+        },
+        {
+          "title": "test title 2 ",
+          "name": "janara",
+          "email": "janara@gmail.com"
+        },
+        {
+          "title": "test title 3",
+          "name": "janara",
+          "email": "janara@gmail.com"
+        },
+        {
+          "title": "test title 4",
+          "name": "Alina",
+          "email": "alina@gmail.com"
+        },
+        {
+          "title": "title 5",
+          "name": "alyl",
+          "email": "akyl@gmail.com"
+        },
+        {
+          "title": "title 6",
+          "name": "alyl",
+          "email": "akyl@gmail.com"
+        },
+        {
+          "title": "we",
+          "name": "we",
+          "email": "we@gmail"
+        }
+      ],
+      "products": [
+        {
+          "product": "cucumber",
+          "cost": 50
+        },
+        {
+          "product": "tomato",
+          "cost": 30
+        },
+        {
+          "product": "walnut",
+          "cost": 60
+        }
+      ],
+      "variants": [
+        {
+          "imageURL": "/blogs/1.png"
+        },
+        {
+          "imageURL": "/blogs/4.png"
+        }
+      ],
+      "shopItemId": 1,
+      "id": 1
+    },
+    {
+      "name": "Fruit and vegetables and protection against diseases",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "img": "/blogs/1.png",
+      "dopInfo1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc. Convallis pellentesque quis fringilla sagittis. Egestas in risus sit nunc nunc, arcu donec nam etiam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc.",
+      "dopInfo2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc. Convallis pellentesque quis fringilla sagittis. Egestas in risus sit nunc nunc, arcu donec nam etiam. Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "dopInfo3": "“ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc.",
+      "dopInfo4": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc. Convallis pellentesque quis fringilla sagittis. Egestas in risus sit nunc nunc, arcu donec nam etiam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc. Convallis pellentesque quis fringilla sagittis. Egestas in risus sit nunc nunc, arcu donec nam etiam. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet.",
+      "price": 669,
+      "comments": [
+        {
+          "id": 1,
+          "name": "alex",
+          "email": "qwerty@gmail.com",
+          "title": "lourtuionb "
+        },
+        {
+          "title": "test title1",
+          "name": "Aidar",
+          "email": "aidar@gmail.con"
+        },
+        {
+          "title": "test title 2 ",
+          "name": "janara",
+          "email": "janara@gmail.com"
+        },
+        {
+          "title": "test title 3",
+          "name": "janara",
+          "email": "janara@gmail.com"
+        },
+        {
+          "title": "test title 4",
+          "name": "Alina",
+          "email": "alina@gmail.com"
+        },
+        {
+          "title": "title 5",
+          "name": "alyl",
+          "email": "akyl@gmail.com"
+        },
+        {
+          "title": "title 6",
+          "name": "alyl",
+          "email": "akyl@gmail.com"
+        },
+        {
+          "title": "we",
+          "name": "we",
+          "email": "we@gmail"
+        },
+        {
+          "title": "wert",
+          "name": "djkl",
+          "email": "wert@gmail.com"
+        }
+      ],
+      "products": [
+        {
+          "product": "cucumber",
+          "cost": 50
+        },
+        {
+          "product": "tomato",
+          "cost": 30
+        },
+        {
+          "product": "walnut",
+          "cost": 60
+        }
+      ],
+      "variants": [
+        {
+          "imageURL": "/blogs/1.png"
+        },
+        {
+          "imageURL": "/blogs/4.png"
+        }
+      ],
+      "shopItemId": 1,
+      "id": 2
+    },
+    {
+      "name": "Asparagus Spring Salad with Rocket, Goat's Cheese",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "img": "/blogs/2.png",
+      "dopInfo1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc. Convallis pellentesque quis fringilla sagittis. Egestas in risus sit nunc nunc, arcu donec nam etiam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc.",
+      "dopInfo2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc. Convallis pellentesque quis fringilla sagittis. Egestas in risus sit nunc nunc, arcu donec nam etiam. Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "dopInfo3": "“ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc.",
+      "dopInfo4": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc. Convallis pellentesque quis fringilla sagittis. Egestas in risus sit nunc nunc, arcu donec nam etiam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc. Convallis pellentesque quis fringilla sagittis. Egestas in risus sit nunc nunc, arcu donec nam etiam. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet.",
+      "price": 210,
+      "comments": [
+        {
+          "title": "qqww",
+          "name": "xszaswdc",
+          "email": "cedwxszqwdxefcv@gmail.com"
+        },
+        {
+          "title": "lorem10",
+          "name": "xszaswdc",
+          "email": "cedwxszqwdxefcv@gmail.com"
+        },
+        {
+          "title": "loremsdfvgbhjnkml,;.'lkjhgfdxfgho;l'gfdgk;p'uytdghjkl;ljhvbnl;uytrdtyuiop[oiuytdrtyuiop'hgftyguiopiuytrdyuiopoiuytrdtp[",
+          "name": "xszaswdc",
+          "email": "cedwxszqwdxefcv@gmail.com"
+        },
+        {
+          "title": "loremsdfvgbhjnkml,;.'lkjhgfdxfgho;l'gfdgk;p'uytdghjkl;ljhvbnl;uytrdtyuiop[oiuytdrtyuiop'hgftyguiopiuytrdyuiopoiuytrdtp['",
+          "name": "xszaswdccc",
+          "email": "12334456789@gmail.com"
+        },
+        {
+          "title": "ertyuiop",
+          "name": "zsxedrcftvgybhunj",
+          "email": "sdrygh@gmail.com"
+        }
+      ],
+      "products": [
+        {
+          "product": "cucumber",
+          "cost": 50
+        },
+        {
+          "product": "tomato",
+          "cost": 30
+        },
+        {
+          "product": "walnut",
+          "cost": 60
+        }
+      ],
+      "variants": [
+        {
+          "imageURL": "/blogs/6.png"
+        },
+        {
+          "imageURL": "/blogs/5.png"
+        }
+      ],
+      "shopItemId": 2,
+      "id": 3
+    }
+  ]
 }

@@ -15,7 +15,7 @@
 }
 
 
-.portfolioMain__title{
+.portfolioMain__title {
     font-weight: 700;
     font-size: 148px;
     line-height: 152px;
@@ -42,9 +42,9 @@
     font-weight: 700;
     font-size: 48px;
     color: var(--white);
-    padding-top: 40%;
-    width: 30%;
-    padding-left: 42px;
+    padding-top: 23%;
+    width: 15%;
+    padding-left: 30px;
 }
 
 .portfolioMenu__filter {
@@ -68,6 +68,7 @@
     }
 }
 
-.portfolioMenu__filter button:hover{
-  color: var(--green);
+.portfolioMenu__filter button:hover {
+    color: var(--green);
 }
+

@@ -45,7 +45,7 @@ async (newUser) => {
     );
     localStorage.setItem("id", data.user.id);
     localStorage.setItem("token", data.accessToken);
-    toast.success("You have successfully logged into your account!");
+    toast.success("вы успешно авторизовались");
     return data.user;
   } catch (error) {
     toast.error(error.response.data);

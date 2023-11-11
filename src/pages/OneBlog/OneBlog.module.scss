@@ -1,6 +1,15 @@
 .oneBlog__main {
     background: url("../../images//BlogsImage/oneBlogBg.png") center/cover no-repeat;
-    height: 850px;
+    height: 60vh;
+}
+
+.oneBlog__title {
+    width: 60%;
+    font-weight: 700;
+    font-size: 88px;
+    line-height: 105px;
+    color: var(--white);
+    padding-top: 20%;
 }
 
 .breadCrumbs {
@@ -126,6 +135,7 @@
     .oneBlog__bottomComments {
         padding-bottom: 128px;
 
+
         h3 {
             font-family: "Lato", sans-serif;
             font-weight: 700;
@@ -140,6 +150,8 @@
             flex-direction: column;
             width: 80%;
             margin: 0 auto;
+            height: 1000px;
+            overflow: scroll;
 
             .oneBlog__commentsCover {
                 display: flex;

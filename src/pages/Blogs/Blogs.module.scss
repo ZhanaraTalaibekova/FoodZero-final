@@ -4,7 +4,7 @@
 
 .blogsMain {
     background: url("../../images/BlogsImage/bg.png") center/cover, no-repeat;
-    height: 850px;
+    height: 80vh;
 }
 
 .blogsProducts__wrapper {
@@ -13,7 +13,7 @@
     column-gap: 30px;
     row-gap: 100px;
 
-    .blogsProducts__img{
+    .blogsProducts__img {
         position: relative;
         z-index: -1;
     }
@@ -95,11 +95,12 @@
 
 .breadCrumbs {
     padding-bottom: 50px;
+
     div {
         display: flex;
         margin-right: 10px;
 
-        a{
+        a {
             color: var(--grey);
         }
     }
@@ -109,17 +110,17 @@
         margin-left: 10px;
     }
 
-    div:last-child:after{
+    div:last-child:after {
         display: none;
-      }      
+    }
 }
 
 
-.orderBtn{
+.orderBtn {
     font-family: "Rufina", sans-serif;
     padding: 20px 35px;
     background-color: var(--green);
-    color:var(--white);
+    color: var(--white);
     border: none;
     font-size: 24px;
     position: absolute;
@@ -128,3 +129,50 @@
 }
 
 
+@media screen and (max-width: 1500px) {
+    .blogsProducts__wrapper {
+        column-gap: 50px;
+        row-gap: 100px;
+        margin: 0 auto;
+        padding-left: 5%;
+
+        .blogsProducts__img {
+            position: relative;
+            z-index: -1;
+        }
+    }
+
+    .blogsProducts__item {
+        width: 45%;
+        position: relative;
+    }
+
+}
+
+@media screen and (max-width: 1000px) {
+    .blogsMain {
+        background: url("../../images/BlogsImage/bg.png") center/cover, no-repeat;
+        height: 850px;
+
+        h1 {
+            font-size: 60px;
+        }
+
+        p {
+            font-size: 20px;
+        }
+    }
+
+    .blogsProducts__title {
+        font-size: 38px;
+    }
+
+    .blogsProducts__subtitle {
+        font-size: 18px;
+    }
+
+
+    .blogsProducts__button { 
+        font-size: 20px;
+    }
+}

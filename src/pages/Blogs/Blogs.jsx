@@ -7,6 +7,7 @@ import { BsArrowRight } from "react-icons/bs"
 import { motion, useScroll } from "framer-motion"
 import { BreadCrumbs } from '../../components/BreadCrumbs/BreadCrumbs';
 import { useTranslation } from 'react-i18next';
+import { bottomAnimation, rightAnimation, textAnimation } from '../../components/Animation/Animation';
 
 
 
@@ -14,7 +15,7 @@ export const Blogs = () => {
     const dispatch = useDispatch()
     const { blogs } = useSelector((state) => state.blogs)
     console.log(blogs)
-    
+
     useEffect(() => {
         dispatch(getBlogs())
     }, [])
@@ -42,9 +43,10 @@ export const Blogs = () => {
                         animate={{ x: 0 }}
                         initial={{ x: 1000 }}
                         durantion={{ x: 1 }}
+                        cursor={3}
                     >
-                        <h1 className={`${styles.blogMain__title} ${"title"}`}>{t("blogs.title")}</h1>
-                        <p className={`${styles.blogMain__description} ${"description"}`}>{t("blogs.description")}</p>
+                        <motion.h1 cursor={3} className={`${styles.blogMain__title} ${"title"}`}>{t("blogs.title")}</motion.h1>
+                        <motion.p cursor={3} className={`${styles.blogMain__description} ${"description"}`}>{t("blogs.description")}</motion.p>
                     </motion.div>
                 </div>
             </section>
@@ -54,37 +56,37 @@ export const Blogs = () => {
                     <div className={`${styles.breadCrumbs} ${'breadCrumbs'}`}>
                         <BreadCrumbs />
                     </div>
-                    <div className={styles.blogsProducts__wrapper}>
+                    <motion.div initial="hidden" whileInView="visible" className={styles.blogsProducts__wrapper}>
                         {blogs.map((blog) => (
                             <motion.div
-                            drag
-                            dragConstraints={{
-                                left: -20,
-                                right: 20,
-                                top: 5,
-                                bottom: 5
-                            }}
+                                variants={textAnimation}
+                                custom={4}
+                                drag
+                                dragConstraints={{
+                                    left: -20,
+                                    right: 20,
+                                    top: 5,
+                                    bottom: 5
+                                }}
                                 animate={{ x: 0 }}
                                 initial={{ x: -1000 }}
                                 durantion={{ x: 1 }}
                                 className={styles.blogsProducts__item} key={blog.id}>
                                 <motion.img
-                                    whileHover={{
-
-                                        scale: 1.1
-                                    }}
+                                   variants={textAnimation}
+                                    custom={1}
                                     whileTap={{
                                         scale: 0.9
                                     }}
                                     src={blog.img} />
                                 <button onClick={() => handleClick(blog)} className={styles.orderBtn}>add to cart</button>
-                                <motion.p className={`${styles.blogsProducts__title}`}>{blog.name}</motion.p>
-                                <div className={`${styles.blogsProducts__dotted}`}></div>
-                                <p className={`${styles.blogsProducts__subtitle}`}>{blog.description}</p>
-                                <button className={styles.blogsProducts__button}><Link to={`/blogs/${blog.id}`}>Read More</Link><BsArrowRight /></button>
+                                <motion.p variants={textAnimation} custom={2} className={`${styles.blogsProducts__title}`}>{blog.name}</motion.p>
+                                <motion.div variants={textAnimation} custom={3} className={`${styles.blogsProducts__dotted}`}></motion.div>
+                                <motion.p variants={textAnimation} custom={4} className={`${styles.blogsProducts__subtitle}`}>{blog.description}</motion.p>
+                                <motion.button variants={textAnimation} custom={5} className={styles.blogsProducts__button}><Link to={`/blogs/${blog.id}`}>Read More</Link><BsArrowRight /></motion.button>
                             </motion.div>
                         ))}
-                    </div>
+                    </motion.div>
 
                 </div>
             </section>

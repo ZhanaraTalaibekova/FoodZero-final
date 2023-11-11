@@ -8,35 +8,32 @@
         max-width: 1920px;
         margin: 0 auto;
         border-top: 2px dashed var(--white);
+
+        .footerBottom__wrapper {
+            display: flex;
+            justify-content: space-between;
+    
+            p {
+                padding-top: 58px;
+            }
+    
+            .footerBottom__svg {
+                padding-top: 62px;
+                display: flex;
+                column-gap: 28px;
+    
+                svg {
+                    width: 28px;
+                    height: 28px;
+                }
+            }
+        }
     }
 
     .footerTop__wrapper {
         display: flex;
         padding-bottom: 137px;
     }
-
-    .footerBottom__wrapper {
-        display: flex;
-        justify-content: space-between;
-
-        p {
-            padding-top: 58px;
-        }
-
-        .footerBottom__svg {
-            padding-top: 62px;
-            display: flex;
-            column-gap: 28px;
-
-            svg {
-                width: 28px;
-                height: 28px;
-            }
-        }
-    }
-
-    
-
 
     &__title {
         width: 5%;
@@ -114,14 +111,22 @@
 
 
 @media screen and (max-width:1500px) {
+
+    .footerTop__wrapper{
+        padding: 0 3% 0 3%;
+
+    }
     .footer__title {
         width: 1%;
         padding-top: 30px;
-        font-size: 45px;
+        font-size: 40px;
+        padding-left: 2%;
     }
 
+  
+
     .footer__contacts {
-        padding-left: 180px;
+        padding-left: 150px;
 
         h2 {
             font-weight: 700;
@@ -135,16 +140,20 @@
     }
 
     .footer__subscribe {
-        padding-left: 200px;
+        padding-left: 150px;
         h2 {
             font-size: 28px;
             width: 100%;
         }
 
         div {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
             input {
                 padding: 15px 30px;
                 width: 450px;
+                
             }
 
             input::placeholder {
@@ -157,23 +166,23 @@
             button {
                 font-weight: 700;
                 font-size: 20px;
-                padding: 15px 35px;
+                padding: 5px 25px;
             }
         }
 
     }
 
     .footerSection__bottom {
-        max-width: 1500px;
-        margin: 0 auto;
-        border-top: 2px dashed var(--white);
-    }
-
-    .footerBottom__wrapper {
-        p {
-            font-size: 20px;
-            padding-top: 58px;
+        .footerBottom__wrapper {
+            p {
+                font-size: 20px;
+                padding-top: 58px;
+                padding-left: 3%;
+            }
+            div{
+                padding-right: 3%;
+            }
+    
         }
-
     }
 }

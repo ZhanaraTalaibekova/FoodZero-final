@@ -52,9 +52,8 @@ export const addComment = createAsyncThunk(
         try {
             const { data } = await axios.patch(`${process.env.REACT_APP_MAIN_URL}/blogs/${comment.id}`, comment);
             console.log(data)
-            toast.success("ok")
+            toast.success("вы успешно добавили коментарий")
             dispatch(getBlogsById(data?.id));
-
             return data;
         } catch (error) {
             console.log(error)

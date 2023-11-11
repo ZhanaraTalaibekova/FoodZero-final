@@ -55,19 +55,12 @@ export const OneBlog = () => {
         dispatch(addToCart({ ...data, shopItemId: id }))
     }
 
-    // useEffect(() => {
-    //     if (selectedBlog?.variants) {
-    //         setVariant(selectedBlog.variants[0].img);
-    //     }
-    // }, [selectedBlog]);
-
-
 
     return (
         <div className={styles.oneBLog}>
             <section className={styles.oneBlog__main}>
                 <div className='container'>
-
+                    <h1 className={styles.oneBlog__title}>Three Ideas for Cooking Goat Meat at Home</h1>
                 </div>
             </section>
             <section>
